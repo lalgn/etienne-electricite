@@ -1,0 +1,27 @@
+:root {
+    --bs-primary: #2e3346;
+    --bs-secondary: #828b9a;
+    --bs-light: #eef7fd;
+    --bs-dark: #2e3346;
+    --custom-header: #343d55;
+    --custom-footer: #404b68;
+}
+
+.bg-custom-header {
+  background-color: var(--custom-header) !important;
+}
+
+.bg-custom-footer {
+  background-color: var(--custom-footer) !important;
+}
+
+body {
+  background-color: var(--bs-primary);
+  color: var(--bs-light);
+}
+
+.card {
+  background-color: var(--bs-primary);
+  color: var(--bs-light);
+  border-color: var(--bs-warning);
+}
