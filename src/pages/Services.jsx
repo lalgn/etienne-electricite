@@ -12,9 +12,10 @@ const services = [
     title: "Installation partielle ou complète",
     question: "Un nouveau besoin ?",
     description: [
-      "Courant fort (Prise, éclairage, chauffage ou autres…)",
-      "ou",
-      "Courant faible (TV, wifi, object connectés ou autres)",
+      "Sur l’électricité du quotidien",
+      "(Prises, éclairage, chauffage, motorisations etc…)",
+      "Ou sur des systèmes connectés",
+      "(Réseaux informatiques, interphones, alarmes, vidéosurveillance, domotique etc…)",
     ],
     solution:
       "Nous installons les conducteurs et les nouveaux modules dans le respect de la norme",
