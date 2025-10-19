@@ -11,7 +11,7 @@ const services = [
 
 const utilities = [
   { text: "Zone : Rouen et ses environs", warning: false },
-  { text: "Court délai d'intervention", warning: true },
+  { text: "Intervention rapide", warning: false },
   { text: "Garantie décennale", warning: false },
 ];
 

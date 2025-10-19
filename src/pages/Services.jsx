@@ -22,13 +22,13 @@ const services = [
   {
     title: "Rénovation",
     question: "Une installation ancienne ?",
-    description: "",
+    description: [],
     solution: "Nous la rénovons pour votre sécurité",
   },
   {
     title: "Dépannage",
     question: "Une panne ?",
-    description: "",
+    description: [],
     solution:
       "Nous intervenons rapidement pour résoudre les problèmes et prévenir tout risque",
   },
