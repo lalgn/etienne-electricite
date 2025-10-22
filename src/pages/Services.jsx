@@ -3,13 +3,23 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const services = [
   {
-    title: "Analyse de votre installation",
+    title: (
+      <>
+        <i class="bi bi-clipboard-pulse text-warning me-2"></i>
+        Analyse de votre installation
+      </>
+    ),
     question: "Un doute ?",
     description: [],
     solution: "Nous détectons les faiblesses et les risques",
   },
   {
-    title: "Installation partielle ou complète",
+    title: (
+      <>
+        <i class="bi bi-lightning text-warning me-2"></i> 
+        Installation partielle ou complète
+   </>
+    ) ,
     question: "Un nouveau besoin ?",
     description: [
       "Sur l’électricité du quotidien",
@@ -21,13 +31,23 @@ const services = [
       "Nous installons les conducteurs et les nouveaux modules dans le respect de la norme",
   },
   {
-    title: "Rénovation",
+    title:(
+      <>
+        <i class="bi bi-house-up text-warning me-2"></i>
+        Rénovation
+    </>
+    ),
     question: "Une installation ancienne ?",
     description: [],
     solution: "Nous la rénovons pour votre sécurité",
   },
   {
-    title: "Dépannage",
+    title: (
+      <>
+        <i class="bi bi-screwdriver text-warning me-2"></i> 
+        Dépannage
+     </>
+    ),
     question: "Une panne ?",
     description: [],
     solution:

@@ -10,7 +10,7 @@ export default function Hero() {
           Pour un travail de qualité et sans concession à la sécurité
         </p>
         <Button as={Link} to="/contact" variant="warning" size="lg">
-          Demander un devis
+          Demander un devis gratuit
         </Button>
       </Container>
     </div>
