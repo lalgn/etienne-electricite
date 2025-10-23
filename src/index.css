@@ -1,3 +1,19 @@
 .text-justify {
   text-align: justify;
 }
+
+.gallery-item {
+  margin: 0;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.gallery-item figcaption {
+  margin-top: 6px;
+}

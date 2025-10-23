@@ -1,11 +1,11 @@
 import ServiceCard from "../components/ServiceCard";
 import { Container, Row, Col } from "react-bootstrap";
 
-const services = [
+export const servicesData = [
   {
     title: (
       <>
-        <i class="bi bi-clipboard-pulse text-warning me-2"></i>
+        <i className="bi bi-clipboard-pulse text-warning me-2"></i>
         Analyse de votre installation
       </>
     ),
@@ -16,10 +16,10 @@ const services = [
   {
     title: (
       <>
-        <i class="bi bi-lightning text-warning me-2"></i> 
+        <i className="bi bi-lightning text-warning me-2"></i>
         Installation partielle ou complète
-   </>
-    ) ,
+      </>
+    ),
     question: "Un nouveau besoin ?",
     description: [
       "Sur l’électricité du quotidien",
@@ -31,11 +31,11 @@ const services = [
       "Nous installons les conducteurs et les nouveaux modules dans le respect de la norme",
   },
   {
-    title:(
+    title: (
       <>
-        <i class="bi bi-house-up text-warning me-2"></i>
+        <i className="bi bi-house-up text-warning me-2"></i>
         Rénovation
-    </>
+      </>
     ),
     question: "Une installation ancienne ?",
     description: [],
@@ -44,9 +44,9 @@ const services = [
   {
     title: (
       <>
-        <i class="bi bi-screwdriver text-warning me-2"></i> 
+        <i className="bi bi-screwdriver text-warning me-2"></i>
         Dépannage
-     </>
+      </>
     ),
     question: "Une panne ?",
     description: [],
@@ -63,7 +63,7 @@ export default function Services() {
         Pour les particuliers, pour les collectivités, pour les entreprises
       </h6>
       <Row>
-        {services.map((s, i) => (
+        {servicesData.map((s, i) => (
           <Col md={6} className="mb-3" key={i}>
             <ServiceCard {...s} />
           </Col>
