@@ -10,9 +10,9 @@ export default function About() {
       </h2>
       <p className="text-justify">
         {" "}
-        <i className="bi bi-tools text-warning me-2"></i> Électricien de métier,
+        <i className="bi bi-tools text-warning me-2"></i> Électriciens de métier, installés à Rouen,
         nous mettons un point d’honneur à perpétuer les valeurs de l’artisanat :
-        la qualité du travail, la rigueur et la confiance. Chaque intervention
+        la qualité du travail, la rigueur et la confiance. Chaque intervention de notre entreprise
         est réalisée avec soin, dans le respect des normes et des délais, pour
         garantir votre sécurité et votre confort.
       </p>
