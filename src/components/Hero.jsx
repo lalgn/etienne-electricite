@@ -8,7 +8,7 @@ export default function Hero() {
         <h1>Artisan Électricien - Électricité générale</h1>
         <h4>Pour un travail de qualité et sans concession à la sécurité</h4>
         <p>
-          Basés à Rouen, nous intervenons pour tous vos travaux d’électricité générale et de dépannage dans la métropole rouennaise
+        Basés à Rouen, nous intervenons pour tous vos travaux d’électricité générale et de dépannage dans la métropole rouennaise
         </p>
         <Button as={Link} to="/contact" variant="warning" size="lg">
           Demander un devis gratuit
