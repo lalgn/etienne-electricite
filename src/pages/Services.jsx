@@ -59,8 +59,11 @@ export default function Services() {
   return (
     <Container className="py-5">
       <h2 className="text-center mb-3">Tous nos services</h2>
-      <h6 className="text-center text-warning mb-5">
+      <h6 className="text-center text-warning mb-3">
         Pour les particuliers, pour les collectivités, pour les entreprises
+      </h6>
+      <h6 className="text-center mb-5">
+      Nous intervenons principalement à Rouen, Bois-Guillaume et Mont-Saint Aignan mais nous pouvons nous déplacer dans toute la métropole rouennaise pour vos dépannages et installations éléctriques.
       </h6>
       <Row>
         {servicesData.map((s, i) => (
