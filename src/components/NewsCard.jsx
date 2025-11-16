@@ -1,11 +1,12 @@
 import { Card } from "react-bootstrap";
 
-export default function ServicesCard({
+
+export default function NewsCard({
   homemode,
   title,
-  question,
+  date,
   description,
-  solution,
+  image,
 }) {
   return (
     <Card className="h-100 text-center">
@@ -13,16 +14,13 @@ export default function ServicesCard({
         <Card.Title>{title}</Card.Title>
         {!homemode && (
           <>
-            <Card.Text className="text-warning">{question}</Card.Text>
+            <Card.Text className="text-warning">{date}</Card.Text>
             {description.length != 0 && (
               <Card.Text style={{ whiteSpace: "pre-line" }}>
                 {description.join("\n")}
               </Card.Text>
             )}
-            <Card.Text>
-              <span className="text-warning me-2">→</span>
-              {solution}
-            </Card.Text>
+            <Card.Img variant="top" src={image} />
           </>
         )}
       </Card.Body>
