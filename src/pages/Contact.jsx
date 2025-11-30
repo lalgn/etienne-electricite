@@ -10,6 +10,11 @@ export default function Contact() {
           <a
             href="tel:+33650019641"
             className="text-decoration-none text-light"
+            onClick={() => {
+              if (window.gtag_report_conversion) {
+              window.gtag_report_conversion("tel:+33650019641");
+              }
+             }}
           >
             <i className="bi bi-telephone-fill text-warning me-2"></i>
             06 50 01 96 41
@@ -19,7 +24,12 @@ export default function Contact() {
           <a
             href="mailto:etienne.electricite@outlook.com "
             className="text-decoration-none text-light"
-          >
+            onClick={() => {
+            if (window.gtag_report_conversion) {
+              window.gtag_report_conversion("mailto:etienne.electricite@outlook.com");
+            }
+            }}
+            >
             <i className="bi bi-envelope-fill text-warning me-2"></i>
             etienne.electricite@outlook.com
           </a>
