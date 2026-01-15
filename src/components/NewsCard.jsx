@@ -1,5 +1,5 @@
 import { Card } from "react-bootstrap";
-
+import "../styles/NewsCard.css";
 
 export default function NewsCard({
   homemode,
@@ -9,8 +9,8 @@ export default function NewsCard({
   image,
 }) {
   return (
-    <Card className="h-100 text-center">
-      <Card.Body className="d-flex flex-column justify-content-center align-items-center">
+    <Card className="h-100">
+      <Card.Body className="d-flex flex-column text-center">
         <Card.Title>{title}</Card.Title>
         {!homemode && (
           <>
@@ -20,7 +20,10 @@ export default function NewsCard({
                 {description.join("\n")}
               </Card.Text>
             )}
-            <Card.Img variant="top" src={image} />
+            <div className="image-container">
+            <img src={image}
+            alt={title}/>
+            </div>
           </>
         )}
       </Card.Body>
