@@ -4,6 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import chantierimage from "../assets/renovation-bd-arr-cuisine.jpg"
 import chantierimage2 from "../assets/avant-apres-bd-arr-cuisine.jpg"
 import chantierimage3 from "../assets/avant-apres-tableau-divisionnaire.jpg"
+import chantierimage4 from "../assets/avant-apres-tableau-Laurent.jpg"
+import chantierimage5 from "../assets/Eclairage-sdb.jpg"
 
 export const newsData = [
   {
@@ -44,6 +46,32 @@ export const newsData = [
       "Chantier de renovation d'un petit tableau divisionnaire qui était dangereux car il n'avait pas de borniers fixes"
     ],
     image: chantierimage3,
+  },
+  {
+    title: (
+      <>
+        <i className="text-warning me-2"></i>
+        Chantier de renovation d'un tableau de répartition d'une maison individuelle
+      </>
+    ),
+    date: "22/04/2026",
+    description: [
+      "Chantier de renovation d'un tableau de répartition avec neutre commun et quelques surprises notamment une partie des circuits en 4 mm²"
+    ],
+    image: chantierimage4,
+  },
+  {
+    title: (
+      <>
+        <i className="text-warning me-2"></i>
+        Installation d'éclairage dans une salle de bain
+      </>
+    ),
+    date: "27/05/2026",
+    description: [
+      "Installation de spots et d'une applique dans une salle de bain"
+    ],
+    image: chantierimage5,
   },
 ];
 
