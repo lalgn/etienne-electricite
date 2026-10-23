@@ -6,7 +6,7 @@ import chantierimage2 from "../assets/avant-apres-bd-arr-cuisine.jpg"
 import chantierimage3 from "../assets/avant-apres-tableau-divisionnaire.jpg"
 import chantierimage4 from "../assets/avant-apres-tableau-Laurent.jpg"
 import chantierimage5 from "../assets/Eclairage-sdb.jpg"
-
+import chantierimage6 from "../assets/avant-apres-tableau-Feffer.jpg"
 export const newsData = [
   {
     title: (
@@ -56,7 +56,7 @@ export const newsData = [
     ),
     date: "22/04/2026",
     description: [
-      "Chantier de renovation d'un tableau de répartition avec neutre commun et quelques surprises notamment une partie des circuits en 4 mm²"
+      "Chantier de rénovation d'un tableau de répartition avec neutre commun et quelques surprises notamment une partie des circuits en 4 mm²"
     ],
     image: chantierimage4,
   },
@@ -72,6 +72,19 @@ export const newsData = [
       "Installation de spots et d'une applique dans une salle de bain"
     ],
     image: chantierimage5,
+  },
+  {
+    title: (
+      <>
+        <i className="text-warning me-2"></i>
+        Chantier de renovation d'un tableau de répartition d'une maison individuelle
+      </>
+    ),
+    date: "05/10/2026",
+    description: [
+      "Nouveau chantier de rénovation d'un tableau de répartition, celui-ci aussi avec neutre commun. L'objectif a été d'installer le tableau à hauteur réglementaire pour faciliter les manipulations"
+    ],
+    image: chantierimage6,
   },
 ];
 
