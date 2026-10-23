@@ -94,7 +94,7 @@ export const newsData = [
         Installation d'une enseigne lumineuse dans un centre de formation
       </>
     ),
-    date: "05/10/2026",
+    date: "14/10/2026",
     description: [
       "Installation d'une enseigne sur un support un peu particulier (bois et feutrine). L'objectif, dans le local technique derrière, a été de fournir une installation à la fois rangée et robuste. L'ensemble reste néanmoins accessible et maintenable si besoin"
     ],
