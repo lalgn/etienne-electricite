@@ -7,6 +7,7 @@ import chantierimage3 from "../assets/avant-apres-tableau-divisionnaire.jpg"
 import chantierimage4 from "../assets/avant-apres-tableau-Laurent.jpg"
 import chantierimage5 from "../assets/Eclairage-sdb.jpg"
 import chantierimage6 from "../assets/avant-apres-tableau-Feffer.jpg"
+import chantierimage7 from "../assets/installation-enseigne.jpg"
 export const newsData = [
   {
     title: (
@@ -85,6 +86,19 @@ export const newsData = [
       "Nouveau chantier de rénovation d'un tableau de répartition, celui-ci aussi avec neutre commun. L'objectif a été d'installer le tableau à hauteur réglementaire pour faciliter les manipulations"
     ],
     image: chantierimage6,
+  },
+  {
+    title: (
+      <>
+        <i className="text-warning me-2"></i>
+        Installation d'une enseigne lumineuse dans un centre de formation
+      </>
+    ),
+    date: "05/10/2026",
+    description: [
+      "Installation d'une enseigne sur un support un peu particulier (bois et feutrine). L'objectif, dans le local technique derrière, a été de fournir une installation à la fois rangée et robuste. L'ensemble reste néanmoins accessible et maintenable si besoin"
+    ],
+    image: chantierimage7,
   },
 ];
 
